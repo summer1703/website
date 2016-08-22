@@ -1,0 +1,1 @@
+define(function(){ return function(obj) {obj || (obj = {});var __t, __p = '';with (obj) {__p += '<p>' +((__t = ( num)) == null ? '' : __t) +'</p>';}return __p};})

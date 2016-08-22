@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../build/p/index/index.css">
+</head>
+<body>
+    <div class="content" id="content">
+        <input type="file" id="file" name="ddc"> <span id="button">确认</span>
+    </div>
+    <script src="../bower_components/requirejs/require.js"></script>
+    <script>
+        requirejs.config({
+            //模块根路径
+            baseUrl: '../src/',
+            /*
+             *映射不在根路径下的
+             *路径是相对于baseUrl的
+             **/
+            paths: {
+                'jquery': '../bower_components/jquery/jquery.min',
+            },
+        });
+
+        require(['jquery'],function () {
+            require(['p/index/index']);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "website",
+  "version": "0.0.1",
+  "description": "for website develop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ExcaliburZhou",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-excalibur-jst": "git@github.com:ExcaliburZhou/gulp-excalibur-jst.git"
+  }
+}

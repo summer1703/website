@@ -1,0 +1,21 @@
+{
+  "name": "website",
+  "description": "for website develop",
+  "main": "index.js",
+  "authors": [
+    "ExcaliburZhou"
+  ],
+  "license": "ISC",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.8.3",
+    "requirejs": "^2.2.0"
+  }
+}
