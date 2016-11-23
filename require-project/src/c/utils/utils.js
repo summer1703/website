@@ -4,9 +4,12 @@ define([
     "use strict";
     console.log(2345)
 
+    function A (){
+
+    }
 
 
     return {
-        hehe: 3
+        hehe: A
     }
 })

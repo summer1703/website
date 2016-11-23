@@ -3,7 +3,7 @@ define([
     'c/utils/uploadImg'
 ], function(utils, uploader){
     "use strict";
-
+    console.log(utils.A);
     //$.ajax({
     //    url: '//192.168.1.223:3100/upload',
     //    type: 'get',
