@@ -15,5 +15,6 @@
 
    * git clone git@github.com:ExcaliburZhou/website.git
    * cd react-project or cd require-project
+   * npm i -g webpack-dev-server or npm i -g gulp
    * npm install
    * npm start
