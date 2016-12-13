@@ -7,7 +7,7 @@ var browserSync = require('browser-sync').create();
 var jst = require('gulp-excalibur-jst')
 
 gulp.task('default', ['serve'], function(){
-    console.log('init')
+    console.log('ok: pls open http://localhost:3000/demo/index.html')
 });
 
 gulp.task('sass', function(){
