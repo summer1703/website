@@ -12,12 +12,12 @@ define(['c/utils/xhr',], function (getXHR){
         var fd = new FormData();
         fd.append('picture', file);
 
-
         xhr.sendHTTP({
-            url: '//192.168.1.223:3100/upload',
+            url: '//192.168.0.104:3100/upload',
             method: 'post',
             data: fd,
             callback: function (obj) {
+                console.log(obj)
                 cb(obj)
             },
             failback: function (obj) {

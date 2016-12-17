@@ -35,7 +35,7 @@ define([
             //console.log(json.url)
             document.body.insertAdjacentHTML('beforeEnd', `<img src="${json.data.url}" />`)
         })
-    })
+    });
     //$('#file').on('change', function(){
     //    uploader(this.files[0], function(json){
     //        console.log(json)
