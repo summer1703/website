@@ -18,10 +18,3 @@
    * npm i -g webpack-dev-server or npm i -g gulp
    * npm install
    * npm start
-
-兔:135
-晴:128
-叶:120
-草:117
-姑:113
-坐:110
